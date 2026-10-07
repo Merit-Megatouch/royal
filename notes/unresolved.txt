@@ -2,27 +2,3 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-CardG | royal.so
-LinkEasyMode | royal.so
-LinkFanTimeSetting | royal.so
-LinkShowDeckSetting | royal.so
-NetGlob | royal.so
-RankFunc | royal.so
-ScreenLineC(unsigned long, unsigned long, unsigned long, unsigned long, int) | royal.so
-BitmapColorize(_RADBitmap*, int, int, int, int) | royal.so
-BitmapGetPixel(_RADBitmap*, unsigned long, unsigned long) | royal.so
-Card_PollLinks() | royal.so
-DisplayDefeated(int, int) | royal.so
-Card_ActiveDelay(int) | royal.so
-Card_ProcessInfo() | royal.so
-GAME_MoveGraphic(void*, unsigned char, unsigned long, unsigned long, unsigned long, unsigned long, unsigned char) | royal.so
-Card_LinkWaitForAll(unsigned long) | royal.so
-AnimationBackToStart(_MSmack*) | royal.so
-Card_ProcessRTPackets(unsigned char) | royal.so
-GetMyId() | royal.so
-Delay_PE(unsigned long) | royal.so
-PlayWave(char*, unsigned short, int, int, int, bool) | royal.so
-GetMaster() | royal.so
-NetGlobals::GetLeaderScore() | royal.so
-NetGlobals::GetRank(unsigned char) | royal.so
-voice_start | royal.so
